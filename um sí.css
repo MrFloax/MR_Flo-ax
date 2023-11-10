@@ -74,7 +74,8 @@ a.link{
 }
 
 img.title{
-    width: 33%;
+    width: 50%;
+    height: auto;
 }
 
 div.papir{
