@@ -1,3 +1,8 @@
+@media(max-width:768px){
+    div.textbox{
+        width: 100%;
+    }
+}
 /* en venninne på nettet fortalte meg at "*{}" endrer på hele siden, så jeg brukte dette for å få alt på den til å treffe kantene til nettleseren */
 *{
     margin: 0;
