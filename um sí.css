@@ -1,3 +1,4 @@
+/* venninna mi hjalp meg med dette også */
 @media(max-width:768px){
     div.textbox{
         width: 100%;
@@ -30,7 +31,7 @@ div.textbox{
     margin-top: 5%;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 5;
+    margin-bottom: 5%;
 }
 
 div.textbox{
@@ -73,7 +74,7 @@ a.link{
 }
 
 img.title{
-    border-image-width: auto;
+    width: 33%;
 }
 
 div.papir{
