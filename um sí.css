@@ -1,0 +1,84 @@
+/* en venninne på nettet fortalte meg at "*{}" endrer på hele siden, så jeg brukte dette for å få alt på den til å treffe kantene til nettleseren */
+*{
+    margin: 0;
+}
+/* skrift type lasting så jeg på: https://www.youtube.com/watch?v=AAU25Fo4bFY */
+@font-face {
+    font-family: "DeterminationMono";
+    src: url(skrift_typer/DeterminationMonoWeb.woff);
+}
+@font-face {
+    font-family: "DeterminationSans";
+    src: url(skrift_typer/DeterminationSansWeb.woff);
+}
+/* dette er stylingen til siden */
+body{
+    background-image:url(bilder/New\ image.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /* custom mus klarte jeg ved å se på https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/ */
+    cursor: none;
+    cursor: url(bilder/cursor0000-1.png.png), auto;
+}
+
+div.textbox{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5;
+}
+
+div.textbox{
+    background: black;
+    border: 8px solid transparent;
+    border-color: white;
+}
+
+h1{
+    font-family: "MonsterFriend2B", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    margin: 8px;
+}
+
+p{
+    font-family: "DeterminationMono", sans-serif;
+    color: white;
+    font-size: 200%;
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+ul{
+    font-family: "DeterminationSans", sans-serif;
+    font-size: 200%;
+}
+
+a{
+    color: yellow;
+}
+
+a.link{
+    display: block;
+    text-align: center;
+}
+
+img.title{
+    border-image-width: auto;
+}
+
+div.papir{
+    background-image: url(bilder/papir\ greie.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    top: 0;
+}
+
+p.papir{
+    font-size: 32px;
+    visibility: hidden;
+}
