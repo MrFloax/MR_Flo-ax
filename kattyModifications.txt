@@ -1,0 +1,15 @@
+I changed:
+- Changed to the navbar home button location to "/" rather than "index.html", it looks better and more professional!
+    (The location would be https://mr-flo-ax.vercel.app/ instead of https://mr-flo-ax.vercel.app/index.html)
+
+I added:
+- vercel.json
+    - Cleans up the URLs, so instead of mr-flo-ax.vercel.app/socials.html, it'll just be mr-flo-ax.vercel.app/socials (example, applys to all pages)!
+    - Info: https://vercel.com/docs/projects/project-configuration#cleanurls
+
+- Mobile Responsiveness
+    - In the CSS file in "um si.css"
+
+I removed: 
+- Some CSS
+    - I commented it in "um si.css" on line 1.
