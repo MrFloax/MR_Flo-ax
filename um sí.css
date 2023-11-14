@@ -1,12 +1,9 @@
-/* venninna mi hjalp meg med dette også */
-@media(max-width:768px){
-    div.textbox{
-        width: 100%;
-    }
-}
+/* I removed the media function you added, it didn't really do anything. */
+
 /* en venninne på nettet fortalte meg at "*{}" endrer på hele siden, så jeg brukte dette for å få alt på den til å treffe kantene til nettleseren */
 *{
     margin: 0;
+    overflow-x: hidden; /* This will hide the scrollbar on the X axis and prevent the user from scrolling off the main X axis (0) the site */
 }
 /* skrift type lasting så jeg på: https://www.youtube.com/watch?v=AAU25Fo4bFY */
 @font-face {
@@ -34,10 +31,18 @@ div.textbox{
     margin-bottom: 5%;
 }
 
+/* This makes the site mobile responsive! */
+@media (max-width: 768px) {
+    div.textbox {
+        margin-left: 0%; /* The margin-left and margin-right throws the box off the screen, so on low resolutions, we remove it. */
+        margin-right: 0%;
+        width: 96%; /* Setting the width any higher will make the box go off-screen! */
+    }
+} 
+
 div.textbox{
     background: black;
-    border: 8px solid transparent;
-    border-color: white;
+    border: 8px solid white; /* There was no need to set the color after. This is just a bit cleaner. */
 }
 
 h1{
